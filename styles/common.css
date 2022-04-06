@@ -1,0 +1,46 @@
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-direction: row;
+    width: 300px;
+}
+
+.cards-item {
+    color: #ffffff;
+    font-size: large;
+    align-content: center;
+    width: 20%;
+    height: 20%;
+    padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+
+.col-even {
+    background-color: #2B8EAD;
+}
+
+.col-odd {
+    background-color: #333333;
+}
+
+.col-third {
+    background-color: #6F98A8;
+}
+
+button {
+    background-color: #2B8EAD;
+    color: #ffffff;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+@media (max-width: 600px) {
+    .cards-container {
+      flex-direction: column;
+    }
+}
